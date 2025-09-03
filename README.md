@@ -15,11 +15,13 @@ Follow these steps to set up the project locally.
 1. Clone the repository
 First, clone this repository to your local machine.
 
-git clone https://github.com/harshita-313/Medical-Assistant-Chatbot
+git clone https://github.com/harshita-313/medical-assistant-chatbot
+
 2. Install dependencies
 Install all the required Python packages using pip. The dependencies are listed in the requirements.txt file.
 
 pip install -r requirements.txt
+
 3. Set up environment variables
 Create a file named .env in the root directory of the project. This file will store your Pinecone API key.
 
