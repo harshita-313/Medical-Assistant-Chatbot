@@ -60,7 +60,7 @@ docsearch = PineconeVectorStore.from_existing_index (
 
 retriever = docsearch.as_retriever(
     search_type="similarity",
-    search_kwargs={"k": 3, "score_threshold": 0.4},
+    search_kwargs={"k": 3},
 )
 
 # retrieved_docs = retriever.invoke("What is osteoarthritis ?") (TO TEST THE RESULTS)
@@ -97,4 +97,5 @@ print (response["answer"])
 # Function to get chatbot response
 def get_answer(query: str) -> str:
     response = rag_Chain.invoke({"input": query})
+
     return response["answer"]
