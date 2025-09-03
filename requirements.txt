@@ -1,0 +1,10 @@
+pypdf
+python-dotenv
+langchain
+langchain_text_splitters
+langchain_pinecone
+langchain_core
+langchain_community
+sentence-transformers
+ollama
+streamlit
