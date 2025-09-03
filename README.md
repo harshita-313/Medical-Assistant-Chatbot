@@ -1,4 +1,5 @@
 🚀 Getting Started
+
 This project uses Python to create a chatbot that answers medical questions based on a provided PDF document. It leverages a Retrieval-Augmented Generation (RAG) approach, combining a vector database (Pinecone) for information retrieval with a Large Language Model (LLM) for conversational responses.
 
 Prerequisites
@@ -13,8 +14,6 @@ Follow these steps to set up the project locally.
 
 1. Clone the repository
 First, clone this repository to your local machine.
-
-Bash
 
 git clone https://github.com/harshita-313/Medical-Assistant-Chatbot
 2. Install dependencies
